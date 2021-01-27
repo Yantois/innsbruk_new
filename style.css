@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+header {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .wrapper img {
+    height: 60px;
+}
+
+nav {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.slogan {
+    height: 550px;
+    background-image: url(img/innsbruck1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan .container {
+    height: 100%;
+}
+
+.slogan .wrapper {
+    align-items: center;
+    height: 100%;
+}
+
+.slogan h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+article h3 {
+    font-weight: 700;
+}
+
+article .about-numbers ul {
+    list-style-image: url(img/check-mark.svg);
+    margin: 0;
+    padding: 15px;
+}
+article .about-numbers ul li{
+    margin: 0;
+}
+article .ads {
+    width: 25%;
+    background-image: url(img/skier.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    flex-direction: column;
+}
+
+article .ads p {
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+}
+article .ads div {
+    flex-grow: 1;
+}
+article .ads a {
+    align-self: flex-end;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+article .about-temperature figure {
+    border: 1px solid #c0c0c0;
+    margin: 0;
+}
+
+article .about-temperature figure img {
+    width: 100%;
+}
+
+article .about-temperature figure figcaption {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 5px 0;
+    border: 1px solid #c0c0c0;
+}
+
+#gallery figure {
+    margin: 0;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: #b5d4c5;
+}
+
+#gallery figure img {
+    width: 68%;
+}
+
+#gallery figcaption {
+    color: white;
+    text-transform: uppercase;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#map iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.transport table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.transport table td, .transport table th {
+    border: 2px solid #c0c0c0;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+}
+
+.transport table thead {
+    border: 3px solid black;
+    color: white;
+    background-color: rgb(32, 46, 92);
+}
+
+footer {
+    background-color: #b5d4c5;
+    padding: 30px 0;
+    margin-top: 15px;
+}
+
+footer .wrapper {
+    justify-content: space-around;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p:first-child {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer p:last-child {
+    font-size: 13px;
+}
+
+footer .icons img {
+    margin: 0 10px;
+}
